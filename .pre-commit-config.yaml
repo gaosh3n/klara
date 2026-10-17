@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/oxc-project/mirrors-oxlint
+    rev: v1.88.0
+    hooks:
+      - id: oxlint
+        entry: ./node_modules/.bin/oxlint --no-error-on-unmatched-pattern --quiet --fix
+        verbose: true
+  - repo: https://github.com/oxc-project/mirrors-oxfmt
+    rev: v0.73.0
+    hooks:
+      - id: oxfmt
+        entry: ./node_modules/.bin/oxfmt --no-error-on-unmatched-pattern
+        verbose: true
