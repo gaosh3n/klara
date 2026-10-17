@@ -1,0 +1,19 @@
+{
+    "name": "klara",
+    "version": "1.0.0",
+    "description": "",
+    "author": "gaosh3n",
+    "license": "MIT",
+    "keywords": [],
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^9.5.1",
+        "@j178/prek": "^0.5.5",
+        "eslint": "^10.9.1",
+        "oxlint": "^1.88.0"
+    }
+}
